@@ -1,6 +1,5 @@
 # Angular Sidenav
-* See [Demo](https://gmerabishvili.github.io/angular-ng-autocomplete/) or try in [Stackblitz](https://stackblitz.com/edit/angular-ng-autocomplete)
-* Advanced Example [Stackblitz](https://stackblitz.com/edit/angular-ng-autocomplete-with-images)
+* See [Demo](https://gmerabishvili.github.io/angular-ng-sidenav/) 
 
 
 Table of contents
