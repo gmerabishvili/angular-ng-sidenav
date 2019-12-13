@@ -25,11 +25,11 @@ npm i angular-ng-sidenav
 ```
 ### Step 2: Import the SidenavLibModule:
 ```js
-import {SidenavLibModule} from 'angular-ng-sidenav';
+import {SidenavModule} from 'angular-ng-sidenav';
 
 @NgModule({
   declarations: [AppComponent],
-  imports: [SidenavLibModule],
+  imports: [SidenavModule],
   bootstrap: [AppComponent]
 })
 export class AppModule {}
