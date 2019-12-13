@@ -1,0 +1,38 @@
+{
+  "name": "angular-ng-sidenav",
+  "version": "1.0.0",
+  "description": "Angular sidenav",
+  "keywords": [
+    "angular",
+    "angular-ng-sidenav",
+    "angular sidenav",
+    "angular-sidenav",
+    "sidenav-component",
+    "ng-sidenav",
+    "ngx-sidenav",
+    "sidenav",
+    "angular sidebar",
+    "angular-sidebar",
+    "ng-sidebar",
+    "ngx-sidebar",
+    "sidebar",
+    "sidebar-component",
+    "angular-6",
+    "angular-7",
+    "angular-8"
+  ],
+  "author": {
+    "name": "Giorgi Merabishvili",
+    "email": "gtmerabishvili@gmail.com",
+    "url": "https://www.linkedin.com/in/giorgi-merabishvili-3719a2121/"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gmerabishvili/angular-sidenav"
+  },
+  "peerDependencies": {
+    "@angular/common": "*",
+    "@angular/core": "*"
+  }
+}

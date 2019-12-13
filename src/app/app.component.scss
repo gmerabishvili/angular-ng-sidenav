@@ -1,0 +1,33 @@
+.menu {
+  .item {
+    width: 100%;
+    cursor: pointer;
+    outline: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    .item-body {
+      padding: 5px 20px;
+      box-sizing: border-box;
+      display: -webkit-box;
+      display: flex;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+      flex-direction: row;
+      -webkit-box-pack: start;
+      justify-content: flex-start;
+      -webkit-box-align: center;
+      align-items: center;
+      align-content: center;
+      color: white;
+      .icon {
+        margin-right: 20px;
+      }
+    }
+  }
+}
+
+::ng-deep ng-sidenav-container {
+  top: 62px !important;
+}
+
+

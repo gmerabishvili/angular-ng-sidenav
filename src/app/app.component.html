@@ -1,0 +1,28 @@
+<app-header (sidenavToggled)='toggleSidenav($event)'></app-header>
+<ng-sidenav-container>
+  <ng-sidenav
+    [expanded]="isExpanded"
+    [drawerState]="state"
+    [drawerWidth]="'250px'"
+    [drawerWidthCollapsed]="'80px'"
+    [color]="'#202c2b'">
+    <div class="menu">
+      <div class="item" *ngFor="let item of menuItems" routerLink="{{item.url}}">
+        <div class="item-body">
+          <div class="icon">
+            <i class="material-icons">{{item.icon}}</i>
+          </div>
+          <div class="text" *ngIf="isExpanded">{{item.title}}</div>
+        </div>
+      </div>
+    </div>
+  </ng-sidenav>
+  <ng-sidenav-content>
+    <router-outlet></router-outlet>
+    <h3>content</h3>
+    <button (click)="toggleSidenavCollapsed()">Toggle (Drawer state 'collapsed')</button>
+    <button (click)="toggleSidenavHidden()">Toggle (Drawer state 'hidden')</button>
+    <button (click)="open()">Open</button>
+    <button (click)="close()">Close</button>
+  </ng-sidenav-content>
+</ng-sidenav-container>
