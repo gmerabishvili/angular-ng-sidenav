@@ -72,7 +72,7 @@ class TestComponent {
 | color  | `string` | `#19222a` | no |  Sidenav color  |
 | drawerWidth | `string` | `250px` | no | Drawer width by default. |
 | drawerWidthCollapsed  | `string` | `80px` | no |  drawer default width on collapsed view by default.  |
-
+| *hiddenOnCollapsed  | `boolean` | `false` | no |  show/hide some elements inside sidenav when drawer state changes from or to collapsed.  |
 
 ### Author
 * [Giorgi Merabishvili](https://www.linkedin.com/in/giorgi-merabishvili-3719a2121/)

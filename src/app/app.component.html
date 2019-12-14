@@ -12,7 +12,7 @@
           <div class="icon">
             <i class="material-icons">{{item.icon}}</i>
           </div>
-          <div class="text" *ngIf="isExpanded">{{item.title}}</div>
+          <div class="text" *hiddenOnCollapsed="isExpanded">{{item.title}}</div>
         </div>
       </div>
     </div>
