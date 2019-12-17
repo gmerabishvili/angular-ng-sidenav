@@ -7,7 +7,7 @@ import {Component, OnInit} from '@angular/core';
     :host {
       display: flex;
       align-items: stretch;
-      position: absolute;
+      position: fixed;
       top: 0;
       bottom: 0;
       left: 0;
